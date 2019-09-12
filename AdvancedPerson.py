@@ -6,7 +6,6 @@ from BookErrors import *
 class AdvancedPerson(Person):
     def __init__(self, name):
         super().__init__(name)
-        self.name = name
 
     def search(self, book, chapter_name):
         return book.search(chapter_name)

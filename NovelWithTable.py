@@ -6,9 +6,6 @@ class NovelWithTable(Novel):
 
     def __init__(self, author, year, title, content=[], table={}):
         super().__init__(author, year, title)
-        self.author = author
-        self.year = year
-        self.title = title
         self.content = content
         self.table = table
         self.size = len(self.content)
